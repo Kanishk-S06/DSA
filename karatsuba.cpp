@@ -18,8 +18,10 @@ long karatsuba(long a, long b) {
 }
 
 int main() {
-    long a = 146125;
-    long b = 255456;
+    long a;
+    long b;
+    cin>>a;
+    cin>>b;
     cout << karatsuba(a, b) << endl;
     return 0;
 }
